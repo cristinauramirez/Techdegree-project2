@@ -178,3 +178,31 @@ ul li a:hover {
   }
 
 }
+
+/*Desktop CSS*/
+@media (min-width: 1024px) {
+  .main-profile {
+    float: right;
+  }
+
+  .main-profile p {
+    float: left;
+    padding-right: 50px;
+  }
+
+  .name {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .first-list {
+    float: right;
+  }
+
+  .portfolio-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+}
