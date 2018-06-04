@@ -123,3 +123,58 @@ ul li a:hover {
 .second-list {
   display: none;
 }
+
+/*Tablet CSS*/
+@media (min-width: 768px) {
+
+  .main-header {
+    padding-top: 20px;
+  }
+
+  .first-list li {
+    display: inline-block;
+    padding-left: 30px;
+  }
+
+  .first-list li a {
+    background-color: #f7f7f7;
+  }
+
+  .main-profile {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+  }
+
+  .main-profile p {
+    padding-right: 10px;
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .portfolio-section {
+    display: grid;
+    grid-template-columns:  50% 50%;
+    grid-column-gap: 10px;
+  }
+
+  .contact-section p {
+    font-size: 1.2em;
+    margin: 0 50px 0 50px;
+  }
+
+  .to-top {
+    display: none;
+  }
+
+  .second-list {
+    display: block;
+    float: right;
+    padding-right: 30px;
+  }
+
+  .main-footer {
+    padding-bottom: 50px;
+  }
+
+}
